@@ -1,0 +1,228 @@
+/* --- Section Corp ---*/
+html {
+  scroll-behavior: smooth;
+  width: 91%;
+}
+
+body {
+  color: white;
+  background-image: linear-gradient(rgba(85, 107, 47), rgba(0, 0, 0));
+}
+
+section {
+	height: 100%;
+	width: 100%;
+	padding : 5% 0;
+}
+
+header {
+	width: 99%;
+	height: 500px;
+	margin:  0 1%;
+}
+
+h1 {
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 45px;
+  text-transform: uppercase;
+}
+
+h3 {
+	text-align: justify;
+	width: 60%;
+	margin-left: 20%;
+}
+
+.footer {
+  /*position: fixed;*/
+ 
+  background-color: #2d2c2b;
+  color: white;
+  text-align: center;
+  width :109%;
+}
+
+#footer {
+  font-size: 22px;
+}
+
+/* --- Section Image ---*/
+#portrait {
+	height: 80%;
+ 	width: 80%;
+	border-radius: 50%;
+	border-left: 25%;
+}
+
+#logoLangague {
+	height: 25%;
+ 	width: 25%;
+	border-radius: 50%;
+	border-left: 25%;	
+}
+
+#logoMDSM {
+	max-width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#logoPRAESTO {
+	max-width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#logoYOUTUBE {
+	max-width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#logoMin {
+	max-width: 10%;
+}
+#logodescente {
+	width: 50px;
+	height: 50px;
+}
+
+#logoSocial {
+	height: 15%;
+ 	width: 15%;	
+}
+
+/* --- Section Présentation & About ---*/
+#index {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(85, 107, 47,0.5)),
+						url("../image/vue.png");
+	background-repeat: no-repeat;
+	text-shadow: 1px 1px 2px black;
+	text-align: center;
+	padding: 5%;
+	margin:  0 4%;
+	width : 100%;
+	height: 100%;
+}
+
+#competence {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)),
+						url("../image/projet.jpg");
+	text-shadow: 1px 1px 2px black;
+	/*padding: 15%;*/
+	width: 98;
+	margin:  0 4%;
+}
+
+#reference {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)),
+						url("../image/banniere.png");
+	text-shadow: 1px 1px 2px black;
+	/*padding: 15%;*/
+	width: 98;
+	margin:  2% 4%;
+}
+#textPresentation {
+	text-align: justify;
+	font-size: 18px;
+}
+
+.button {
+	background-color: #CECECE;
+    border: none;
+	color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 2% 35%;
+    border-radius: 15px;
+}
+
+.button:hover {
+	background-color: #FfFFFF;
+    border: none;
+	color: black;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 2% 35%;
+    border-radius: 15px;
+}
+
+/* --- Section Formulaire ---*/
+
+#label {	
+	text-transform: uppercase;
+	margin-left: 20%;
+}
+
+.inputs {
+	margin-left: 20%;
+	width: 60%;
+
+}
+
+#submit {
+	background-color: black;
+    border: none;
+	color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border: solid 5px white;
+    border-radius: 5px;
+    width: 30%;
+    margin-top: 10px;
+	margin-left: 35%;
+}
+
+#submit:hover {
+	background-color: white;
+
+	color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border: solid 5px white;
+    border-radius: 5px;
+    width: 30%;
+    margin-top: 10px;
+	margin-left: 35%;
+}
+
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.loader {
+position : fixed;
+z-index: 9999;
+background : url('icon-loader.gif') 50% 50% no-repeat;
+top : 0px;
+left : 0px;
+height : 100%;
+width : 100%;
+cursor : wait;
+}

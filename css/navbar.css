@@ -1,0 +1,12 @@
+/*--- Définition des propriétés de la navbar*/
+#test {
+  color: #fff;
+  background-color: #333;
+  transition: all 1s ease-out;
+}
+
+#test:hover,
+#test:focus {
+  color: #333;
+  background-color: #fff;
+}
